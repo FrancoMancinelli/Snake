@@ -19,6 +19,7 @@ import ui_ux.MySnakeFrame;
  *
  */
 
+@SuppressWarnings("serial")
 public class TableroJuego extends JPanel {
 	
 	    private MySnakeFrame snakeFrame;

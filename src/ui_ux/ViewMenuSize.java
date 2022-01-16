@@ -1,19 +1,17 @@
 package ui_ux;
 
-import java.awt.EventQueue;
-
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
 import java.awt.Font;
 import java.awt.Color;
-import java.awt.SystemColor;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.JPanel;
 
+@SuppressWarnings("serial")
 public class ViewMenuSize extends JPanel{
 
 	private JFrame frameMenuSize;

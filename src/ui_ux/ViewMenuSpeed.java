@@ -1,19 +1,17 @@
 package ui_ux;
 
-import java.awt.EventQueue;
-
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
 import java.awt.Font;
 import java.awt.Color;
-import java.awt.SystemColor;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.JPanel;
 
+@SuppressWarnings("serial")
 public class ViewMenuSpeed extends JPanel{
 
 	private JFrame frameMenuSpeed;
@@ -25,6 +23,7 @@ public class ViewMenuSpeed extends JPanel{
 	private JButton btnImposible;
 	private JLabel lblMenuInicial;
 	private JLabel lblEligeModo;
+	@SuppressWarnings("unused")
 	private ViewMenuSize frameMenuSize;
 
 	
@@ -107,7 +106,7 @@ public class ViewMenuSpeed extends JPanel{
 			public void actionPerformed(ActionEvent e) {
 				frameMenuSpeed.setVisible(false);
 				var juego = new ViewJuego();
-				new ViewMenuSize(0, juego);
+				frameMenuSize = new ViewMenuSize(0, juego);
 			}
 		});
 		
@@ -115,7 +114,7 @@ public class ViewMenuSpeed extends JPanel{
 			public void actionPerformed(ActionEvent e) {
 				frameMenuSpeed.setVisible(false);
 				var juego = new ViewJuego();
-				new ViewMenuSize(3, juego);
+				frameMenuSize = new ViewMenuSize(3, juego);
 			}
 		});
 		
@@ -123,7 +122,7 @@ public class ViewMenuSpeed extends JPanel{
 			public void actionPerformed(ActionEvent e) {
 				frameMenuSpeed.setVisible(false);
 				var juego = new ViewJuego();
-				new ViewMenuSize(7, juego);
+				frameMenuSize = new ViewMenuSize(7, juego);
 			}
 		});
 		
@@ -131,7 +130,7 @@ public class ViewMenuSpeed extends JPanel{
 			public void actionPerformed(ActionEvent e) {
 				frameMenuSpeed.setVisible(false);
 				var juego = new ViewJuego();
-				new ViewMenuSize(10, juego);
+				frameMenuSize = new ViewMenuSize(10, juego);
 			}
 		});
 		

@@ -1,11 +1,8 @@
 package models;
 
-import java.awt.Color;
 import java.awt.Graphics2D;
 import java.awt.event.KeyEvent;
 import java.util.ArrayList;
-
-import javax.swing.JPanel;
 
 public class Serpiente {
     //Constantes. No hay
@@ -23,7 +20,8 @@ public class Serpiente {
     //******   Métodos -- Comportamientos
 
     //Creación
-    public Serpiente(){
+    @SuppressWarnings({ "unchecked", "rawtypes" })
+	public Serpiente(){
     	//creamos la lista de cuadrados.
         listaCuadrados = new ArrayList();
 

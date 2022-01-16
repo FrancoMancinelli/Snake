@@ -26,6 +26,7 @@ import models.Serpiente;
  *
  */
 
+@SuppressWarnings("serial")
 public class MySnakeFrame extends JFrame {	
 	
 	//***** estado
@@ -41,6 +42,7 @@ public class MySnakeFrame extends JFrame {
 	private boolean mostrarFinal;
 	private boolean mostrado;
 	
+	@SuppressWarnings("unused")
 	private int mySize = 0;
 	
 	

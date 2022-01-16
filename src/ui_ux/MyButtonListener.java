@@ -12,6 +12,7 @@ public class MyButtonListener implements ActionListener {
 
 	private MySnakeFrame snakeFrame;
 	private TableroJuego tablero;
+	@SuppressWarnings("unused")
 	private JLabel puntos;
 	
 	
